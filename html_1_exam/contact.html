@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header clearfix">
+      <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="business.html">事業内容</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li class="clicked"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="content">
+       <form>
+         <table>
+           <tr>
+             <th>お名前</th>
+             <td><input type="text" name="user_name" class="sizeChange"></td>
+           </tr>
+           <tr>
+            <th>メールアドレス</th>
+            <td><input type="email" name="user_mail" class="sizeChange"></td>
+          </tr>
+          <tr>
+            <th>性別</th>
+            <td class="radioButton">
+              <label><input type="radio" name="sex" value="male">男</label>
+              <label><input type="radio" name="sex" value="female">女</label>
+            </td>
+          </tr>
+          <tr>
+            <th>お問い合わせ内容</th>
+            <td><textarea name="message" class="sizeChange"></textarea></td>
+          </tr>
+         </table>
+         <p class="submit">送信</p>
+       </form>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC ALL RIGHTS RESERVED.</p>
+    </footer>
+    </div>
+  </body>
+</html>
