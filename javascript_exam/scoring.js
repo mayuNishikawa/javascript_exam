@@ -33,7 +33,7 @@ $(function () {
     else if (averageIndicate >= 60) {
       return "B";
     }
-    else if (avergeIndicate >= 40) {
+    else if (averageIndicate >= 40) {
       return "C";
     }
     else {
