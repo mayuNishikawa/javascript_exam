@@ -1,0 +1,115 @@
+/* common css */
+html {
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.container {
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+/* aboutクラス指定箇所　ここから */
+h1 {
+  font-size: 1.5rem;
+  margin: 10px auto;
+}
+p {
+  font-size: 0.8rem;
+}
+/* aboutクラス指定箇所　ここまで */
+section {
+  padding: 30px;
+}
+/* ここまでがcommom css実装 */
+
+/* header */
+header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: #2B2B2B;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: auto;
+}
+header ul li {
+  margin: 0px 10px;
+}
+header ul li:nth-of-type(3) {
+  margin-left: auto;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* ここまでがheader部分の実装 */
+
+/* main-header */
+.main-header {
+  padding-bottom: 15%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+.main-header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 13%;
+}
+/* ここまでがmain-header部分の実装 */
+
+/* function */
+.function {
+  background-color: #D3D3D3;
+}
+.function-images {
+  display: flex;
+  justify-content: center;
+}
+
+.function-image {
+  margin: 20px;
+}
+/* ここまでがfunction部分の実装 */
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #283A4B;
+  color:#fff;
+}
+/* ここまでがfooter部分の実装 */
+
+
+
+/* fundtion~footer間の余白について */
+
+/* about,functionそれぞれにpadding:30px;を適用したことにより解決しましたが、
+検証ツールを用いて表示幅を変えると、閲覧デバイスによって隙間が生じます。 */
+/* この課題がPC用ページである事が前提ならばこの方法でも簡単に余白を埋める事ができましたが、
+表示幅に関係なく余白を埋める方法があって、それを適用することが狙いならばヒントをいただきたいです。 */
+/* 採点よろしくお願いいたします。 */
